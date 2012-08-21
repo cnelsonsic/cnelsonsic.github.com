@@ -34,23 +34,40 @@ After a few iterations, I came up with a "will-probably-work" mechanism.
 
 It functions roughly like this:
 
-1. Toys are stored in the [traditional plastic capsule](http://www.candymachines.com/Empty-Vending-Capsules-C99.aspx),
-    usually 1-2 inches around.
-2. The capsules are stored in a hopper at the top of the machine, usually in a
-    clear plastic or glass container.
-3. At the bottom of the hopper is an opening a touch bigger than the capsules.
-    The opening is at the far back of the mechanism.
-4. Underneath that is a disk which rotates when the crank is turned.
-5. The capsules rest on top of the disk. It has a circle cut out, where when it
-    matches the upper opening, the capsule drops down into a chute and rests on
-    a third disk, which is attached to the same shaft as the second disk.
-5. The third disk has a hole cut opposite the first disk's, but as the disks
-    turn, the chute is closed off from other capsules, and the bottom of the
-    chute opens to release the capsule.
-6. Finally, it slides down a curved chute to the excited <del>customer</del>
-    child who is eagerly cranking the handle.
+Toys are stored in the [traditional plastic capsule](http://www.candymachines.com/Empty-Vending-Capsules-C99.aspx),
+usually 1-2 inches around.
+The capsules are stored in a hopper at the top of the machine, usually in a
+clear plastic or glass container.
+At the bottom of the hopper is an opening a touch bigger than the capsules.
+The opening is at the far back of the mechanism.
+![](/gashapon/1.png)
 
-Pictures, animations and a .blend file will be along shortly.
+Underneath the bottom of the hopper (Green in these images) is a disk (pink),
+which rotates when the crank is turned.
+![](/gashapon/2.png)
+
+The capsule rests on the solid parts of the disk, until it is turned and lets
+the capsule drop through.
+![](/gashapon/3.png)
+
+The capsule drops down into a chute and rests on a second rotating disk, which
+is attached to the same shaft as the first disk.
+![](/gashapon/5.png)
+
+The second disk is set exactly opposite of the first, so that the capsules'
+downward path is interrupted.
+![](/gashapon/6.png)
+
+As a side effect, additional capsules are prevented from falling by the first
+capsule being there, as well as the first disk separating the two as the
+second disk opens the path downward.
+
+As the disks continue to turn, the opening below opens and releases the capsule
+into a chute below.
+![](/gashapon/9.png)
+
+A more realistic rendering of the mechanism:
+![Animated Capsule Dispensing Mechanism demonstration](/gashapon/gashapon.gif)
 
 Funds Acquisition Mechanism
 ---------------------------
